@@ -6,7 +6,7 @@ use FoF\OAuth\Provider;
 use Flarum\Forum\Auth\Registration;
 use Flarum\Settings\SettingsRepositoryInterface;
 use League\OAuth2\Client\Provider\AbstractProvider;
-use J4k\OAuth2\Client\Provider\Yandex as YandexProvider;
+use Aego\OAuth2\Client\Provider\Yandex as YandexProvider;
 
 class Yandex extends Provider
 {
