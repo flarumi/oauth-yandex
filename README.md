@@ -1,13 +1,13 @@
-# Oauth Vkontakte
+# Oauth Yandex
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-A Flarum extension. Add vkontakte oauth to Flarum, extends Fof/Oauth
+A Flarum extension. Add yandex oauth to Flarum, extends Fof/Oauth
 
 ### Installation
 
 ```sh
-composer require flarumi/oauth-vkontakte
+composer require flarumi/oauth-yandex
 ```
 
  - First, Enable `FoF/Oauth`.
@@ -16,9 +16,9 @@ composer require flarumi/oauth-vkontakte
 ### Updating
 
 ```sh
-composer update flarumi/oauth-vkontakte
+composer update flarumi/oauth-yandex
 ```
 
 ### Links
 
-- [Packagist](https://packagist.org/packages/flarumi/oauth-vkontakte)
+- [Packagist](https://packagist.org/packages/flarumi/oauth-yandex)
