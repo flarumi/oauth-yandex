@@ -1,0 +1,43 @@
+{
+  "name": "flarumi/oauth-yandex",
+  "description": "Add yandex oauth to Flarum, extends FoF/Oauth",
+  "keywords": [
+    "flarum",
+    "oauth",
+    "yandex"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "homepage": "https://flarum.info",
+  "require": {
+    "flarum/core": "^0.1.0-beta.15",
+    "aego/oauth2-yandex": "^0.2.2",
+    "fof/oauth": "^0.2.0"
+  },
+  "authors": [
+    {
+      "name": "Flari",
+      "email": "site@flarum.info",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Flarumi\\OauthYandex\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Oauth Yandex",
+	  "category": "authentication",
+      "icon": {
+                "name": "fab fa-yandex",
+                "backgroundColor": "#FE1519",
+                "color": "#fff"
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
+}
