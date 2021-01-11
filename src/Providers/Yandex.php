@@ -42,7 +42,7 @@ class Yandex extends Provider
     {
         $registration
             ->provideTrustedEmail($user->getEmail())
-			->provideAvatar("https://avatars.mds.yandex.net/get-yapic/" . array_get($user->toArray(), 'default_avatar_id') . "/islands-retina-50")
+	    ->provideAvatar("https://avatars.mds.yandex.net/get-yapic/" . array_get($user->toArray(), 'default_avatar_id') . "/islands-retina-50")
             ->suggestUsername($user->getName())
             ->setPayload($user->toArray());
     }
