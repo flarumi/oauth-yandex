@@ -9,7 +9,7 @@ fof-oauth:
 
   lib:
     providers:
-      yandex: Вконтакте
+      yandex: Яндекс
 
   forum:
     log_in:
